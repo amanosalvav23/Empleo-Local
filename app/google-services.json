@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959036846340",
+    "project_id": "empleolocal-ceb7d",
+    "storage_bucket": "empleolocal-ceb7d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959036846340:android:0eca13cbe3237e43aa6051",
+        "android_client_info": {
+          "package_name": "unc.edu.pe.empleolocal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-qHTqXx0TiRAUOMPH3BOFHxLAgbQSQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">EmpleoLocal</string>
+    <string name="btn_aplicar_rapido">Aplicar rápido</string>
+    <string name="desc_check">Empresa verificada</string>
+    <string name="desc_location">Ubicación</string>
+    <string name="desc_logo">Logo de la empresa</string>
+    <string name="divider_bullet">·</string>
+
+    <!-- Bienvenida Screen -->
+    <string name="welcome_subtitle">Tu empleo más cercano</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
+    <string name="btn_registrarse">Registrarse</string>
+
+    <!-- Iniciar Sesión Screen -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_welcome_subtitle">Tu portal de empleo local</string>
+    <string name="login_email_label">Correo electrónico</string>
+    <string name="login_email_hint">ejemplo@correo.com</string>
+    <string name="login_password_label">Contraseña</string>
+    <string name="login_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_security_notice">Tus datos están cifrados y protegidos</string>
+    <string name="login_no_account">¿No tienes cuenta?</string>
+    <string name="login_register_action">Regístrate</string>
+
+    <!-- Crear Perfil Screen -->
+    <string name="create_profile_title">Crear Perfil</string>
+    <string name="step_1">PASO 1</string>
+    <string name="step_2">PASO 2</string>
+    <string name="step_3">PASO 3</string>
+    <string name="personal_info_title">Información Personal</string>
+    <string name="personal_info_subtitle">Comencemos con tus datos básicos para crear tu cuenta en EmpleoLocal.</string>
+    <string name="first_name_label">Nombres</string>
+    <string name="first_name_hint">Ej. Juan</string>
+    <string name="last_name_label">Apellidos</string>
+    <string name="last_name_hint">Ej. Pérez</string>
+    <string name="phone_label">Teléfono Celular</string>
+    <string name="phone_hint">987 654 321</string>
+    <string name="password_hint">Mínimo 6 caracteres</string>
+    <string name="ssl_security_notice">Datos cifrados con seguridad SSL</string>
+    <string name="btn_continue">Continuar</string>
+
+    <!-- Paso 2 Ubicación -->
+    <string name="location_title">Ubicación</string>
+    <string name="location_subtitle">Ayúdanos a encontrarte las mejores ofertas locales cerca de ti.</string>
+    <string name="use_current_location">Usar mi ubicación actual</string>
+    <string name="location_precision_hint">Precisión a nivel distrital en Perú</string>
+    <string name="region_label">REGIÓN</string>
+    <string name="provincia_label">PROVINCIA</string>
+    <string name="distrito_label">DISTRITO</string>
+    <string name="select_distrito">Selecciona tu distrito</string>
+    <string name="search_radius_label">Radio de búsqueda</string>
+    <string name="radius_5km">5 km</string>
+    <string name="radius_1km">1 KM</string>
+    <string name="radius_15km">15 KM</string>
+    <string name="radius_30km">30 KM</string>
+
+    <!-- Paso 3 Habilidades y CV -->
+    <string name="skills_cv_title">Habilidades y CV</string>
+    <string name="skills_cv_subtitle">Selecciona tus áreas de experiencia y sube tu currículum para destacar.</string>
+    <string name="experience_areas_label">Areas de experiencia</string>
+    <string name="documentation_label">Documentación</string>
+    <string name="upload_cv_title">Subir CV</string>
+    <string name="upload_cv_hint">Haz clic para subir tu CV (PDF, DOCX)</string>
+    <string name="recommended">RECOMENDADO</string>
+    <string name="max_file_size">Tamaño máximo de archivo: 5MB</string>
+    <string name="finish_registration">Finalizar registro</string>
+
+    <!-- Chips de experiencia -->
+    <string name="exp_mineria">Minería</string>
+    <string name="exp_agronomia">Agronomía</string>
+    <string name="exp_enfermeria">Enfermería</string>
+    <string name="exp_docencia">Docencia</string>
+    <string name="exp_contabilidad">Contabilidad</string>
+    <string name="exp_turismo">Turismo</string>
+    <string name="exp_gastronomia">Gastronomía</string>
+    <string name="exp_construccion">Construcción</string>
+    <string name="exp_mecanica">Mecánica</string>
+    <string name="exp_ventas">Ventas</string>
+
+    <!-- Inicio Screen -->
+    <string name="showing_jobs_in">Mostrando empleos en Cajamarca</string>
+    <string name="radio_label">Radio: </string>
+    <string name="change_location">Cambiar</string>
+    <string name="search_hint">Buscar empleos en Cajamarca...</string>
+    <string name="chip_cerca">Cerca (2km)</string>
+    <string name="chip_salud">Salud</string>
+    <string name="chip_tiempo">Tiempo completo</string>
+    <string name="offers_near_you">Ofertas cerca de ti</string>
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_mapa">Mapa</string>
+    <string name="nav_postulaciones">Postulaciones</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <!-- Mapa Screen -->
+    <string name="map_title">Mapa de Empleos</string>
+    <string name="map_search_hint">Buscar en Cajamarca...</string>
+    <string name="current_location_tag">Cajamarca Centro</string>
+    <string name="selected_job_label">SELECTED JOB</string>
+    <string name="btn_aplicar">Aplicar</string>
+    <string name="jobs_found_title">28 empleos en Cajamarca Centro</string>
+    <string name="swipe_up_hint">Desliza para ver la lista completa</string>
+    <string name="view_list">Ver Lista</string>
+
+    <!-- Postulaciones Screen -->
+    <string name="title_postulaciones">Mis Postulaciones</string>
+    <string name="filter_sent">Enviadas (8)</string>
+    <string name="filter_review">En Revisión (3)</string>
+    <string name="filter_interview">Entrevista</string>
+    <string name="tab_all">Todas</string>
+    <string name="tab_active">Activas</string>
+    <string name="tab_archived">Archivadas</string>
+    <string name="status_review">En Revisión</string>
+    <string name="status_interview">Entrevista</string>
+    <string name="status_rejected">Rechazada</string>
+    <string name="step_applied">Postulado</string>
+    <string name="step_review">Revisión</string>
+    <string name="step_interview">Entrevista</string>
+    <string name="step_final">Final</string>
+    <string name="view_detail">Ver detalle</string>
+
+    <!-- Perfil Screen -->
+    <string name="title_perfil">Mi Perfil</string>
+    <string name="user_name">Carlos Pérez Quispe</string>
+    <string name="user_initials">CP</string>
+    <string name="user_role">Técnico en Minería</string>
+    <string name="user_location">Cajamarca, Cajamarca</string>
+    <string name="label_postulaciones">POSTULACIONES</string>
+    <string name="label_entrevistas">ENTREVISTAS</string>
+    <string name="label_guardados">GUARDADOS</string>
+    <string name="profile_location_radio">Mi Ubicación y Radio</string>
+    <string name="profile_skills">Mis Habilidades</string>
+    <string name="profile_cv">Mi CV</string>
+    <string name="profile_cv_file">CV_Carlos_Perez.pdf</string>
+    <string name="view_cv">Ver CV</string>
+    <string name="profile_privacy">Privacidad</string>
+    <string name="profile_visible">Permitir Notificaciones</string>
+    <string name="profile_notifications">Notificaciones</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!-- Editar Perfil Screen -->
+    <string name="edit_profile_title">Editar Perfil</string>
+    <string name="btn_save">Guardar</string>
+    <string name="change_profile_photo">Cambiar foto de perfil</string>
+    <string name="email_no_edit_note">El correo no puede ser modificado.</string>
+    <string name="btn_save_changes">Guardar Cambios</string>
+    <string name="last_updated_prefix">Actualizado hace </string>
+    <string name="update">Actualizar</string>
+
+    <!-- Notificaciones Screen -->
+    <string name="notifications_title">Notificaciones</string>
+    <string name="mark_all_read">Marcar todas leídas</string>
+    <string name="tab_notifications_all">Todas</string>
+    <string name="tab_notifications_proximity">Proximidad</string>
+    <string name="tab_notifications_applications">Postulaciones</string>
+    <string name="section_unread">NO LEÍDAS</string>
+    <string name="section_read">LEÍDAS</string>
+    <string name="notif_new_offer_title">Nueva oferta a 0.8km</string>
+    <string name="notif_time_5min">Hace 5 min</string>
+    <string name="notif_5km_radio_title">2 nuevas ofertas in 5km radio</string>
+    <string name="notif_time_15min">Hace 15 min</string>
+    <string name="notif_app_viewed_title">Tu postulación fue vista</string>
+    <string name="notif_time_1h">Hace 1 hora</string>
+    <string name="notif_verified_company_title">Nueva empresa verificada (Gold Fields)</string>
+    <string name="notif_time_yesterday">Ayer, 08:15 AM</string>
+
+    <!-- Detalle Oferta Screen -->
+    <string name="job_detail_title">Detalle de Oferta</string>
+    <string name="company_api_integration">Integrado con API Ministerio de Trabajo</string>
+    <string name="job_description_label">Descripción</string>
+    <string name="job_responsibilities_label">Responsabilidades:</string>
+    <string name="job_benefits_label">Beneficios:</string>
+    <string name="job_location_label">Ubicación</string>
+    <string name="btn_aplicacion_rapida">Aplicación Rápida</string>
+    <string name="full_time">Tiempo completo</string>
+    <string name="on_site">Presencial</string>
+
+    <!-- Perfil Empresa Screen -->
+    <string name="company_profile_title">Perfil de Empresa</string>
+    <string name="company_verified">Verificado</string>
+    <string name="company_reviews_count">(312 reseñas)</string>
+    <string name="company_operating_since">Operando en Cajamarca desde 1992</string>
+    <string name="label_ruc">RUC</string>
+    <string name="label_sector">SECTOR</string>
+    <string name="label_tamano">TAMAÑO</string>
+    <string name="label_sede_principal">SEDE PRINCIPAL</string>
+    <string name="active_offers_title">Ofertas activas en Cajamarca</string>
+    <string name="view_all">Ver todas</string>
+    <string name="reputation_title">Reputación</string>
+    <string name="rating_value">4.5</string>
+    <string name="reviews_total">312 calificaciones</string>
+    <string name="btn_aplicar_short">Aplicar</string>
+
+    <!-- Seguimiento Screen -->
+    <string name="tracking_title">Seguimiento</string>
+    <string name="application_status_title">Estado de postulación</string>
+    <string name="step_applied_done">Aplicación enviada</string>
+    <string name="step_completed_prefix">Completado • </string>
+    <string name="step_cv_review_done">CV en revisión</string>
+    <string name="step_interview_scheduled">Entrevista programada</string>
+    <string name="current_status_label">ESTADO ACTUAL</string>
+    <string name="step_final_result">Resultado final</string>
+    <string name="pending_interview">Pendiente de entrevista</string>
+    <string name="interview_details_title">Detalles de la Entrevista</string>
+    <string name="label_date_time">Fecha y hora</string>
+    <string name="interview_time">Martes 18 Feb, 10:00 AM</string>
+    <string name="view_on_map">Ver en el mapa</string>
+    <string name="btn_add_calendar">Añadir al calendario</string>
+    <string name="btn_withdraw_application">Retirar postulación</string>
+
+    <!-- Filtrar Ofertas Screen -->
+    <string name="filter_title">Filtrar Ofertas</string>
+    <string name="search_radius_cajamarca">Radio de búsqueda en Cajamarca</string>
+    <string name="distance_label">Distancia</string>
+    <string name="radius_20km">20 km</string>
+    <string name="showing_jobs_near_center">Mostrando empleos a 5km del centro de Cajamarca</string>
+    <string name="job_type_label">Tipo de empleo</string>
+    <string name="full_time_label">Tiempo completo</string>
+    <string name="part_time_label">Medio tiempo</string>
+    <string name="hourly_label">Por horas</string>
+    <string name="freelance_label">Freelance</string>
+    <string name="job_sector_label">Sector laboral en Cajamarca</string>
+    <string name="min_salary_label">Salario mínimo</string>
+    <string name="from_label">DESDE</string>
+    <string name="to_label">HASTA</string>
+    <string name="min_salary_val">S/. 1,025</string>
+    <string name="max_salary_val">S/. 5,000</string>
+    <string name="btn_clear">Limpiar</string>
+    <string name="btn_apply_filters">Aplicar filtros</string>
+    <string name="exp_educacion">Educación</string>
+    <string name="exp_agropecuario">Agropecuario</string>
+    <string name="exp_comercio">Comercio</string>
+    <string name="exp_tecnologia">Tecnología</string>
+    <string name="exp_finanzas">Finanzas</string>
+    <string name="exp_municipalidad">Municipalidad</string>
+    <string name="exp_ong">ONG</string>
+
+    <!-- Empleos Guardados (Offline) -->
+    <string name="saved_jobs_title">Empleos Guardados</string>
+    <string name="offline_available">Disponible sin conexión</string>
+    <string name="offline_sync_info">Última sync: hace 2h · 12 empleos guardados en Cajamarca</string>
+    <string name="sync_now">Sincronizar ahora</string>
+    <string name="offline_mode">Modo offline</string>
+    <string name="btn_remove">Eliminar</string>
+    <string name="saved_prefix">Guardado </string>
+</resources>

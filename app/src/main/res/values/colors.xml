@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Seleccionado (click) -->
+    <color name="blue_selected">#1F89E5</color>
+
+    <!-- Fondo pantallas/contenedor -->
+    <color name="screen_bg">#F6F7F8</color>
+
+    <!-- AppBar -->
+    <color name="appbar_bg">#FFFFFF</color>
+    <color name="appbar_title">#000000</color>
+
+    <!-- BottomBar -->
+    <color name="bottom_bg">#FFFFFF</color>
+    <color name="bottom_unselected">#9AA3AF</color>
+
+    <!-- Ofertas Screen -->
+    <color name="color_primary_green">#43A047</color>
+    <color name="text_title">#001C39</color>
+    <color name="text_subtitle">#677489</color>
+    <color name="text_details">#8A94A6</color>
+    <color name="divider_color">#E0E0E0</color>
+
+    <!-- Bienvenida Screen -->
+    <color name="blue_bg">#1F89E5</color>
+
+    <!-- Iniciar Sesión Screen -->
+    <color name="login_bg">#F5F7FA</color>
+    <color name="login_logo_text">#111518</color>
+    <color name="login_subtitle">#637788</color>
+    <color name="login_label">#111518</color>
+    <color name="login_input_bg">#FFFFFF</color>
+    <color name="login_input_stroke">#E8EDF2</color>
+    <color name="login_hint">#637788</color>
+    <color name="login_blue_text">#1F89E5</color>
+    <color name="blue_10_alpha">#1A1F89E5</color>
+</resources>

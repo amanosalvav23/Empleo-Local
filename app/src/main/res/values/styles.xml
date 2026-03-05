@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilo para la Toolbar -->
+    <style name="Widget.EmpleoLocal.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/appbar_bg</item>
+        <item name="titleTextColor">@color/appbar_title</item>
+        <item name="navigationIconTint">@color/appbar_title</item>
+    </style>
+
+    <style name="Widget.EmpleoLocal.Toolbar.Login" parent="Widget.EmpleoLocal.Toolbar">
+        <item name="titleTextColor">@color/blue_selected</item>
+        <item name="titleTextAppearance">@style/TextAppearance.LoginToolbar</item>
+    </style>
+
+    <style name="TextAppearance.LoginToolbar" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Estilo para la Navegación Inferior -->
+    <style name="Widget.EmpleoLocal.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/bottom_bg</item>
+        <!-- color de iconos y texto al dar clic -->
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <!-- Quitamos la pastilla usando un estilo de indicador transparente -->
+        <item name="itemActiveIndicatorStyle">@style/App.Custom.Indicator</item>
+    </style>
+
+    <!-- Estilo del indicador (hace que la pastilla sea invisible) -->
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+
+    <!-- Estilos para Ofertas -->
+    <style name="OfertaTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="OfertaSubtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_subtitle</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OfertaDetail" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_details</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="OfertaSalary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BotonAplicar" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/color_primary_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.LargeComponent.Rounded</item>
+    </style>
+
+    <!-- Estilos para Bienvenida -->
+    <style name="BotonBienvenidaBlanco" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/blue_bg</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.LargeComponent.Rounded</item>
+    </style>
+
+    <style name="BotonBienvenidaBorde" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.LargeComponent.Rounded</item>
+    </style>
+
+    <!-- Estilos para Inputs de Login -->
+    <style name="LoginInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/login_input_stroke</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="hintEnabled">false</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.LargeComponent.Rounded</item>
+        <item name="startIconTint">@color/login_subtitle</item>
+        <item name="endIconTint">@color/login_subtitle</item>
+    </style>
+
+    <style name="ShapeAppearance.LargeComponent.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+</resources>
